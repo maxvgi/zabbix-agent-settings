@@ -26,10 +26,10 @@ WGET_BIN="/usr/bin/wget"
 #  - need to be displayable in Zabbix (avoid NOT_SUPPORTED)
 #  - items need to be of type "float" (allow negative + float)
 #
-ERROR_NO_ACCESS_FILE="-0.9900"
-ERROR_NO_ACCESS="-0.9901"
-ERROR_WRONG_PARAM="-0.9902"
-ERROR_DATA="-0.9903" # either can not connect /	bad host / bad port
+ERROR_NO_ACCESS_FILE="-0.9"
+ERROR_NO_ACCESS="-0.91"
+ERROR_WRONG_PARAM="-0.92"
+ERROR_DATA="-0.93" # either can not connect /	bad host / bad port
 
 # Handle host and port if non-default
 if [ ! -z "$ZBX_REQ_DATA_URL" ]; then

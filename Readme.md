@@ -36,7 +36,7 @@ mv userparameter_mysql.conf.new userparameter_mysql.conf
 echo CREATE USER \'zabbix-agent\'@\'localhost\' IDENTIFIED BY \"$pwd\"\; GRANT REPLICATION CLIENT ON \*.\* TO \'zabbix-agent\'@\'localhost\'\;FLUSH PRIVILEGES\; | mysql -uroot
 ```
 
-#Перезапускаем заббикс-агент
+# Перезапускаем заббикс-агент
 
 Одно из двух:
 
